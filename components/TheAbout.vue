@@ -1,13 +1,9 @@
 <template>
-  <div class="py-6 px-3">
+  <div>
     <!-- Section Header  -->
-    <h1>
-      <span class="text-3xl font-bold text-tertiary uppercase font-Cinzel"
-        >About Us</span
-      >
-    </h1>
+    <TheHeader title="About Us" />
 
-    <div class="mt-4 text-gray-900 text-lg font-Merriweather leading-relaxed">
+    <div class="text-gray-900 text-lg font-Merriweather leading-relaxed">
       <p>
         Mazingira Movement, born from a collective passion for environmental
         impact, was founded with a simple yet powerful mission: to foster
@@ -23,11 +19,7 @@
 
     <!-- learn more button  -->
     <div class="mt-8">
-      <NuxtLink
-        to="/about"
-        class="inline-block px-6 py-3 text-lg font-semibold text-white uppercase bg-tertiary rounded hover:bg-primary font-Cinzel"
-        >Learn More</NuxtLink
-      >
+      <TheButton title="Learn More" />
     </div>
   </div>
 </template>

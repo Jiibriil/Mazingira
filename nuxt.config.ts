@@ -15,6 +15,8 @@ export default defineNuxtConfig({
     families: {
       Merriweather: true,
       Cinzel: true,
+      Newsreader: true,
+      Laila: true,
     },
   },
   extends: ["nuxt-seo-kit"],

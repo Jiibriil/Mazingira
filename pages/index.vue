@@ -2,7 +2,11 @@
   <div>
     <!-- <TheCarousel /> -->
     <TheHero />
-    <TheAbout />
+    <div class="px-3">
+      <TheAbout />
+      <TheWorks />
+      <TheCard />
+    </div>
   </div>
 </template>
 

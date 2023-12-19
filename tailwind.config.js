@@ -24,6 +24,8 @@ module.exports = {
       fontFamily: {
         Merriweather: ["Merriweather", "serif"],
         Cinzel: ["Cinzel", "serif"],
+        Laila: ["Laila", "serif"],
+        Newsreader: ["Newsreader", "serif"],
       },
     },
   },
