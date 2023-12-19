@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+  <div>
+    <!-- <TheCarousel /> -->
+    <TheHero />
+    <TheAbout />
+  </div>
 </template>
 
 <script setup></script>

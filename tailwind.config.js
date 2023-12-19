@@ -7,6 +7,7 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./app.vue",
     "./error.vue",
+    "./node_modules/flowbite/**/*.{js,ts}",
   ],
   theme: {
     extend: {
@@ -18,9 +19,13 @@ module.exports = {
         quinary: "#0D0D0D",
       },
       scale: {
-        "-1": "-1",
+        flip: "-1",
+      },
+      fontFamily: {
+        Merriweather: ["Merriweather", "serif"],
+        Cinzel: ["Cinzel", "serif"],
       },
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };

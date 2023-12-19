@@ -7,7 +7,15 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
+    "@nuxtjs/google-fonts",
   ],
   css: ["~/assets/css/tailwind.css"],
+
+  googleFonts: {
+    families: {
+      Merriweather: true,
+      Cinzel: true,
+    },
+  },
   extends: ["nuxt-seo-kit"],
 });
