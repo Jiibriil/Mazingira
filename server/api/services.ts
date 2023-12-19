@@ -1,29 +1,36 @@
 export default defineEventHandler(async (event) => {
   return {
-    {
-        "services": [
-          {
-            "image": "path/to/cleanup-image.jpg",
-            "title": "Community Cleanups",
-            "description": "Mega cleanups to enhance the overall cleanliness of neighborhoods. Specialized projects targeting specific areas with environmental challenges."
-          },
-          {
-            "image": "path/to/sewage-image.jpg",
-            "title": "Sewage Unclogging",
-            "description": "Expertise in addressing sewage blockages for improved sanitation."
-          },
-          {
-            "image": "path/to/sensitization-image.jpg",
-            "title": "Community Sensitization Programs",
-            "description": "Educational initiatives to raise awareness about environmental issues. Workshops and campaigns to promote sustainable practices within communities."
-          },
-          {
-            "image": "path/to/waste-management-image.jpg",
-            "title": "Waste Management Solutions",
-            "description": "Installation of strategically placed garbage bins to discourage improper disposal. Implementation of waste disposal infrastructure for long-term impact."
-          }
-        ]
-      }
-      
+    services: [
+      {
+        image: "/images/img2.webp",
+        title: "Community Cleanups",
+        description:
+          "Join hands with our community for large-scale clean-up drives that revitalize streets and neighborhoods. We tackle accumulated waste, unclog drains, and leave behind a cleaner, healthier environment.",
+      },
+      {
+        image: "/images/img2.webp",
+        title: "Sewage Unclogging",
+        description:
+          "Through our Volunteers and Partners, we unclog sewage systems and drains across Nairobi. We also provide training on proper waste disposal practices to prevent future blockages.",
+      },
+      {
+        image: "/images/img2.webp",
+        title: "Community Sensitization Programs",
+        description:
+          "Educational initiatives to raise awareness about environmental issues. Workshops and campaigns to promote sustainable practices within communities.",
+      },
+      {
+        image: "/images/img2.webp",
+        title: "Waste Management Solutions",
+        description:
+          "We provide waste management solutions to less privileged communities across Nairobi. We install waste bins, provide waste collection services, and offer training on proper waste disposal practices.",
+      },
+      {
+        Image: "/images/img2.webp",
+        title: "Tree Planting",
+        description:
+          "We plant trees in public spaces and slums across Nairobi. We also provide training on tree care and maintenance to ensure the trees grow to maturity.",
+      },
+    ],
   };
 });

@@ -3,7 +3,7 @@
     <!-- Section Header  -->
     <TheHeader title="About Us" />
 
-    <div class="text-gray-900 text-lg font-Merriweather leading-relaxed">
+    <div class="text-gray-900 text-lg font-Laila leading-relaxed">
       <p>
         Mazingira Movement, born from a collective passion for environmental
         impact, was founded with a simple yet powerful mission: to foster

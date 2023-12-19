@@ -1,5 +1,5 @@
 <template>
-  <div class="py-8">
+  <div class="py-6">
     <h1>
       <span class="text-3xl font-bold text-tertiary uppercase font-Cinzel">
         {{ title }}
