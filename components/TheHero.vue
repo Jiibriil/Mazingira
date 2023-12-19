@@ -5,6 +5,8 @@
         src="/images/img8.webp"
         class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full object-cover"
         alt="..."
+        sizes="sm:300px md:500px lg:800px xl:1000px"
+        loading="lazy"
       />
       <div class="absolute inset-0 bg-black bg-opacity-50"></div>
       <div class="absolute inset-0 flex items-center justify-center">
