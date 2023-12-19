@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   modules: [
     "radix-vue/nuxt",
     "@vueuse/nuxt",
-    "nuxt-icons",
+    "nuxt-icon",
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
   ],
