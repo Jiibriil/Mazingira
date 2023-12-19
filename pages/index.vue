@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <TheNav />
-  </div>
+  <div></div>
 </template>
 
 <script setup></script>
