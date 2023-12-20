@@ -1,8 +1,6 @@
 <template>
   <div>
     <TheHeader title="What we do" />
-    <!-- <TheCard  /> -->
-    {{ services }}
     <div v-for="(service, index) in services">
       <TheCard
         :title="service.title"

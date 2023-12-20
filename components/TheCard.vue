@@ -1,6 +1,6 @@
 <template>
   <div
-    class="max-w-sm rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 my-4 bg-white"
+    class="max-w-sm rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 bg-white mb-5"
   >
     <div>
       <NuxtImg
